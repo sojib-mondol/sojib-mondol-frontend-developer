@@ -6,7 +6,7 @@ const SearchFrom = () => {
     return (
         <div className='mx-10 my-10'>
             <h2 className='text-center text-3xl md:text-4xl font-medium lg:text-5xl'>Search</h2>
-            <form class="w-full max-w-sm mx-auto  mt-10">
+            <form class="w-full max-w-sm mx-auto  mt-5 lg:mt-10">
                 <div className='grid grid-cols-2 gap-5'>
                 <div class="mb-4">
                     <label class="block text-gray-700 font-bold mb-2" for="status">

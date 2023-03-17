@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer class="bg-white mt-10">
+        <footer class="bg-white ">
             <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
 
                 <p class="text-lg font-medium text-gray-800 ">© Copyright 2023. All Rights Reserved.</p>
