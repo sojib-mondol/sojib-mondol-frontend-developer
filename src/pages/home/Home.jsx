@@ -1,10 +1,12 @@
 import React from 'react';
 import Banner from '../../components/banner/Banner';
+import SearchFrom from '../../components/searchFrom/SearchFrom';
 
 const Home = () => {
     return (
-        <div>
+        <div> 
             <Banner></Banner>
+            <SearchFrom></SearchFrom>
         </div>
     );
 };
