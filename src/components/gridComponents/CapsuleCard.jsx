@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CapsuleCard = ({rocket}) => {
 
@@ -29,9 +30,9 @@ const CapsuleCard = ({rocket}) => {
                 <p class="mb-4 font-light px-5 text-sm md:text-sm  text-gray-400">{description.slice(0,150)+" . . ."} </p>
 
                 <div class="flex justify-center gap-x-3">
-                    <a href="/track_order.html"
+                    <Link to={`/`}
                         class="px-5 py-2 border border-[#0284C7] text-[#0284C7] hover:bg-[#0284C7] hover:text-white transition-all outline-none bg-white  font-bold">
-                        View</a>
+                        View</Link>
                 </div>
 
             </div>
